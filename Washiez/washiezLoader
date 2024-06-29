@@ -1,4 +1,4 @@
-if string.match(tostring(identifyexecutor()) == "Wave 5.0") then
+if identifyexecutor() == "Wave 5.0" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MyeTheScripterLol/MyeWare/main/Washiez/scripts/moonsecVersion"))()
 -- run moonsec version
 else
