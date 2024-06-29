@@ -1,0 +1,5 @@
+if game.PlaceId == "6764533218" then
+
+else
+print("get on washiez plz")
+end
