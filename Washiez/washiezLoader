@@ -1,7 +1,1 @@
-if identifyexecutor() == "Wave" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MyeTheScripterLol/MyeWare/main/Washiez/scripts/moonsecVersion"))()
--- run moonsec version
-else
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MyeTheScripterLol/MyeWare/main/Washiez/scripts/LuaobfuscatorVersion"))()
--- run luaobfuscator version
-end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MyeTheScripterLol/MyeWare/main/Washiez/scripts/NEW"))()
