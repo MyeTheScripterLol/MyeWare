@@ -1656,36 +1656,17 @@ end end)
 
 local function collectorSteal()
     if kocmoc.vars.autodigmode == "Collector Steal" then
-        for i,v in pairs(game.Players:GetChildren()) do
-            if v.Name ~= game.Players.LocalPlayer.Name then
-                if v then
-                    if v.Character then
-                        if v.Character:FindFirstChildWhichIsA("Tool") then
-                            if v.Character:FindFirstChildWhichIsA("Tool"):FindFirstChild("ClickEvent") then
-                    v.Character:FindFirstChildWhichIsA("Tool").ClickEvent:FireServer()
-                end
-            end
-        end
-        end
-        end
-        end
+       game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ToolCollect"):FireServer()
     end
 end
 
 task.spawn(function() while task.wait(0.05) do
-    if kocmoc.toggles.farmrares then for k,v in next, game.workspace.Collectibles:GetChildren() do if v.CFrame.YVector.Y == 1 then if v.Transparency == 0 then decal = v:FindFirstChildOfClass("Decal") for e,r in next, kocmoc.rares do if decal.Texture == r or decal.Texture == "rbxassetid://"..r then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame break end end end end end end
     if kocmoc.toggles.autodig then
     pcall(function()
-	if game.Players.LocalPlayer then 
-		if game.Players.LocalPlayer.Character then 
-			if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then 
-				if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):FindFirstChild("ClickEvent", true) then 
-				tool = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") or nil 
-				end 
-			end 
-		end 
-	if tool then getsenv(tool.ClientScriptMouse).collectStart(game:GetService("Players").LocalPlayer:GetMouse()) end end collectorSteal() workspace.NPCs.Onett.Onett["Porcelain Dipper"].ClickEvent:FireServer() end) end
-end end)
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ToolCollect"):FireServer()
+end
+endd
+end)
 
 
 
