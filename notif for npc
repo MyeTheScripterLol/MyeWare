@@ -1,0 +1,146 @@
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
+
+local NOTIF = Instance.new("ScreenGui")
+local HOLDER = Instance.new("Frame")
+local TITLE = Instance.new("TextLabel")
+local ROUND3 = Instance.new("UICorner")
+local ROUND = Instance.new("UICorner")
+local MainText = Instance.new("TextLabel")
+local ROUND3_2 = Instance.new("UICorner")
+local Confirm = Instance.new("TextButton")
+local ROUND2 = Instance.new("UICorner")
+local LEAVE = Instance.new("TextButton")
+local ROUND2_2 = Instance.new("UICorner")
+
+-- Properties
+
+NOTIF.Name = "NOTIF"
+NOTIF.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+NOTIF.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+NOTIF.Enabled = false
+
+HOLDER.Name = "HOLDER"
+HOLDER.Parent = NOTIF
+HOLDER.AnchorPoint = Vector2.new(0.5, 0.5)
+HOLDER.BackgroundColor3 = Color3.new(0.403922, 0, 0.00784314)
+HOLDER.BackgroundTransparency = 0.20000000298023224
+HOLDER.BorderColor3 = Color3.new(0, 0, 0)
+HOLDER.BorderSizePixel = 0
+HOLDER.Position = UDim2.new(0.848719954, 0, 0.874060154, 0)
+HOLDER.Size = UDim2.new(0, 371, 0, 173)
+
+TITLE.Name = "TITLE"
+TITLE.Parent = HOLDER
+TITLE.BackgroundColor3 = Color3.new(0, 0, 0)
+TITLE.BackgroundTransparency = 0.5
+TITLE.BorderColor3 = Color3.new(0, 0, 0)
+TITLE.BorderSizePixel = 0
+TITLE.Position = UDim2.new(0.0172234308, 0, 0.0364584513, 0)
+TITLE.Size = UDim2.new(0, 358, 0, 50)
+TITLE.Font = Enum.Font.DenkOne
+TITLE.Text = "HR JOIN"
+TITLE.TextColor3 = Color3.new(1, 1, 1)
+TITLE.TextScaled = true
+TITLE.TextSize = 14
+TITLE.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+TITLE.TextWrapped = true
+
+ROUND3.Name = "ROUND3"
+ROUND3.Parent = TITLE
+ROUND3.CornerRadius = UDim.new(0, 5)
+
+ROUND.Name = "ROUND"
+ROUND.Parent = HOLDER
+ROUND.CornerRadius = UDim.new(0, 10)
+
+MainText.Name = "MainText"
+MainText.Parent = HOLDER
+MainText.BackgroundColor3 = Color3.new(0, 0, 0)
+MainText.BackgroundTransparency = 0.5
+MainText.BorderColor3 = Color3.new(0, 0, 0)
+MainText.BorderSizePixel = 0
+MainText.Position = UDim2.new(0.0172234308, 0, 0.35067448, 0)
+MainText.Size = UDim2.new(0, 358, 0, 50)
+MainText.Font = Enum.Font.DenkOne
+MainText.Text = "Test123 (Junior Director) has joined the game."
+MainText.TextColor3 = Color3.new(1, 1, 1)
+MainText.TextScaled = true
+MainText.TextSize = 14
+MainText.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+MainText.TextWrapped = true
+
+ROUND3_2.Name = "ROUND3"
+ROUND3_2.Parent = MainText
+ROUND3_2.CornerRadius = UDim.new(0, 5)
+
+Confirm.Name = "Confirm"
+Confirm.Parent = HOLDER
+Confirm.BackgroundColor3 = Color3.new(0, 0, 0)
+Confirm.BackgroundTransparency = 0.5
+Confirm.BorderColor3 = Color3.new(0, 0, 0)
+Confirm.BorderSizePixel = 0
+Confirm.Position = UDim2.new(0.0161725059, 0, 0.682080925, 0)
+Confirm.Size = UDim2.new(0, 170, 0, 47)
+Confirm.Font = Enum.Font.DenkOne
+Confirm.Text = "OK!"
+Confirm.TextColor3 = Color3.new(1, 1, 1)
+Confirm.TextScaled = true
+Confirm.TextSize = 14
+Confirm.TextWrapped = true
+
+ROUND2.Name = "ROUND2"
+ROUND2.Parent = Confirm
+ROUND2.CornerRadius = UDim.new(0, 5)
+
+LEAVE.Name = "LEAVE"
+LEAVE.Parent = HOLDER
+LEAVE.BackgroundColor3 = Color3.new(0, 0, 0)
+LEAVE.BackgroundTransparency = 0.5
+LEAVE.BorderColor3 = Color3.new(0, 0, 0)
+LEAVE.BorderSizePixel = 0
+LEAVE.Position = UDim2.new(0.522911072, 0, 0.682080925, 0)
+LEAVE.Size = UDim2.new(0, 170, 0, 47)
+LEAVE.Font = Enum.Font.DenkOne
+LEAVE.Text = "LEAVE THE GAME"
+LEAVE.TextColor3 = Color3.new(1, 1, 1)
+LEAVE.TextScaled = true
+LEAVE.TextSize = 14
+LEAVE.TextWrapped = true
+
+ROUND2_2.Name = "ROUND2"
+ROUND2_2.Parent = LEAVE
+ROUND2_2.CornerRadius = UDim.new(0, 5)
+
+-- Scripts
+
+local function WUULGU_fake_script() -- Confirm.LocalScript 
+	local script = Instance.new('LocalScript', Confirm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Enabled = false
+	end)
+end
+coroutine.wrap(WUULGU_fake_script)()
+local function WFYVJ_fake_script() -- LEAVE.LocalScript 
+	local script = Instance.new('LocalScript', LEAVE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer:Destroy()
+	end)
+end
+coroutine.wrap(WFYVJ_fake_script)()
+getgenv().SendNotif = function(plr,rank)
+	MainText.Text = plr.." ("..rank..") ".."Has joined the game!"
+	NOTIF.Enabled = true
+	wait(3)
+	NOTIF.Enabled = false
+end
