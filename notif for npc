@@ -138,9 +138,9 @@ local function WFYVJ_fake_script() -- LEAVE.LocalScript
 	end)
 end
 coroutine.wrap(WFYVJ_fake_script)()
-getgenv().SendNotif = function(plr,rank)
+getgenv().SendNotif = function(plr,rank,time)
 	MainText.Text = plr.." ("..rank..") ".."Has joined the game!"
 	NOTIF.Enabled = true
-	wait(3)
+	wait(time)
 	NOTIF.Enabled = false
 end
