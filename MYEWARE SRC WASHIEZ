@@ -1,0 +1,1628 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+print("abc")
+local MainGui = Instance.new("ScreenGui")
+local a = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local ExploitsFrame = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local MRCount = Instance.new("TextLabel")
+local HRCount = Instance.new("TextLabel")
+local CarFlingToggle = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local CarNoclipToggle = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
+local DevRankToggle = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local PlayerFlingToggle = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local MapFrame = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local DeleteLaneGates = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local DeleteAllBarriers = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
+local MiscFrame = Instance.new("Frame")
+local TabSwitcher = Instance.new("Frame")
+local ExploitsTabButton = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
+local MapTabButton = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local MiscTabButton = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local CreditsTabButton = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local VehicleTabButton = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local CreditsFrame = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextBox_2 = Instance.new("TextBox")
+local TextLabel_20 = Instance.new("TextLabel")
+local VehicleFrame = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+
+--Properties:
+
+MainGui.Name = "MainGui"
+MainGui.Parent = game.CoreGui
+
+a.Name = "a"
+a.Parent = MainGui
+a.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+a.BorderColor3 = Color3.fromRGB(0, 0, 0)
+a.BorderSizePixel = 0
+a.Position = UDim2.new(0.379114717, 0, 0.106670901, 0)
+a.Size = UDim2.new(0, 558, 0, 497)
+
+TextLabel.Parent = a
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.652406991, 0, 0.945424676, 0)
+TextLabel.Size = UDim2.new(0, 331, 0, 20)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "BETA"
+TextLabel.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 42.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = a
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.202586189, 0, 0.0311987326, 0)
+TextLabel_2.Size = UDim2.new(0, 331, 0, 20)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "MyeWare - Washiez"
+TextLabel_2.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 42.000
+TextLabel_2.TextWrapped = true
+
+TextButton.Parent = a
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 57, 60)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.943050504, 0, 0.0311987326, 0)
+TextButton.Size = UDim2.new(0, 19, 0, 19)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0, 10000)
+UICorner.Parent = TextButton
+
+ExploitsFrame.Name = "ExploitsFrame"
+ExploitsFrame.Parent = a
+ExploitsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExploitsFrame.BackgroundTransparency = 1.000
+ExploitsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExploitsFrame.BorderSizePixel = 0
+ExploitsFrame.Position = UDim2.new(0, 0, 0.183098659, 0)
+ExploitsFrame.Size = UDim2.new(0, 558, 0, 405)
+
+TextLabel_3.Parent = ExploitsFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.00179211469, 0, 0.261728406, 0)
+TextLabel_3.Size = UDim2.new(0, 156, 0, 35)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Car Fling"
+TextLabel_3.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = ExploitsFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0, 0, 0.47901234, 0)
+TextLabel_4.Size = UDim2.new(0, 156, 0, 35)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Car Noclip"
+TextLabel_4.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = ExploitsFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0107526882, 0, 0.592592597, 0)
+TextLabel_5.Size = UDim2.new(0, 156, 0, 35)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Dev Rank"
+TextLabel_5.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+MRCount.Name = "MRCount"
+MRCount.Parent = ExploitsFrame
+MRCount.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MRCount.BackgroundTransparency = 1.000
+MRCount.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MRCount.BorderSizePixel = 0
+MRCount.Position = UDim2.new(-3.28146001e-07, 0, 0, 0)
+MRCount.Size = UDim2.new(0, 220, 0, 52)
+MRCount.Font = Enum.Font.SourceSansBold
+MRCount.Text = "Scanning..."
+MRCount.TextColor3 = Color3.fromRGB(113, 113, 113)
+MRCount.TextScaled = true
+MRCount.TextSize = 14.000
+MRCount.TextWrapped = true
+
+HRCount.Name = "HRCount"
+HRCount.Parent = ExploitsFrame
+HRCount.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HRCount.BackgroundTransparency = 1.000
+HRCount.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HRCount.BorderSizePixel = 0
+HRCount.Position = UDim2.new(0.000711420551, 0, 0.130827129, 0)
+HRCount.Size = UDim2.new(0, 220, 0, 54)
+HRCount.Font = Enum.Font.SourceSansBold
+HRCount.Text = "Scanning..."
+HRCount.TextColor3 = Color3.fromRGB(113, 113, 113)
+HRCount.TextScaled = true
+HRCount.TextSize = 14.000
+HRCount.TextWrapped = true
+
+CarFlingToggle.Name = "CarFlingToggle"
+CarFlingToggle.Parent = ExploitsFrame
+CarFlingToggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CarFlingToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CarFlingToggle.BorderSizePixel = 0
+CarFlingToggle.Position = UDim2.new(0.28645274, 0, 0.277996898, 0)
+CarFlingToggle.Size = UDim2.new(0, 66, 0, 29)
+
+Frame.Parent = CarFlingToggle
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Size = UDim2.new(0, 26, 0, 29)
+Frame.ZIndex = 2
+
+UICorner_2.CornerRadius = UDim.new(1, 0)
+UICorner_2.Parent = Frame
+
+TextButton_2.Parent = CarFlingToggle
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0, 0, 4.20932111e-06, 0)
+TextButton_2.Size = UDim2.new(0, 66, 0, 29)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(1, 0)
+UICorner_3.Parent = TextButton_2
+
+UICorner_4.CornerRadius = UDim.new(1, 0)
+UICorner_4.Parent = CarFlingToggle
+
+CarNoclipToggle.Name = "CarNoclipToggle"
+CarNoclipToggle.Parent = ExploitsFrame
+CarNoclipToggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CarNoclipToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CarNoclipToggle.BorderSizePixel = 0
+CarNoclipToggle.Position = UDim2.new(0.28645274, 0, 0.49281171, 0)
+CarNoclipToggle.Size = UDim2.new(0, 66, 0, 29)
+
+Frame_2.Parent = CarNoclipToggle
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Size = UDim2.new(0, 26, 0, 29)
+Frame_2.ZIndex = 2
+
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = Frame_2
+
+TextButton_3.Parent = CarNoclipToggle
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0, 0, 4.20932111e-06, 0)
+TextButton_3.Size = UDim2.new(0, 66, 0, 29)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(1, 0)
+UICorner_6.Parent = TextButton_3
+
+UICorner_7.CornerRadius = UDim.new(1, 0)
+UICorner_7.Parent = CarNoclipToggle
+
+DevRankToggle.Name = "DevRankToggle"
+DevRankToggle.Parent = ExploitsFrame
+DevRankToggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DevRankToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DevRankToggle.BorderSizePixel = 0
+DevRankToggle.Position = UDim2.new(0.28645274, 0, 0.606391966, 0)
+DevRankToggle.Size = UDim2.new(0, 66, 0, 29)
+
+Frame_3.Parent = DevRankToggle
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Size = UDim2.new(0, 26, 0, 29)
+Frame_3.ZIndex = 2
+
+UICorner_8.CornerRadius = UDim.new(1, 0)
+UICorner_8.Parent = Frame_3
+
+TextButton_4.Parent = DevRankToggle
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0, 0, 4.20932111e-06, 0)
+TextButton_4.Size = UDim2.new(0, 66, 0, 29)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = ""
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+UICorner_9.CornerRadius = UDim.new(1, 0)
+UICorner_9.Parent = TextButton_4
+
+UICorner_10.CornerRadius = UDim.new(1, 0)
+UICorner_10.Parent = DevRankToggle
+
+PlayerFlingToggle.Name = "PlayerFlingToggle"
+PlayerFlingToggle.Parent = ExploitsFrame
+PlayerFlingToggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayerFlingToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerFlingToggle.BorderSizePixel = 0
+PlayerFlingToggle.Position = UDim2.new(0.28645274, 0, 0.38663888, 0)
+PlayerFlingToggle.Size = UDim2.new(0, 66, 0, 29)
+
+Frame_4.Parent = PlayerFlingToggle
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Size = UDim2.new(0, 26, 0, 29)
+Frame_4.ZIndex = 2
+
+UICorner_11.CornerRadius = UDim.new(1, 0)
+UICorner_11.Parent = Frame_4
+
+TextButton_5.Parent = PlayerFlingToggle
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0, 0, 4.20932111e-06, 0)
+TextButton_5.Size = UDim2.new(0, 66, 0, 29)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = ""
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+UICorner_12.CornerRadius = UDim.new(1, 0)
+UICorner_12.Parent = TextButton_5
+
+UICorner_13.CornerRadius = UDim.new(1, 0)
+UICorner_13.Parent = PlayerFlingToggle
+
+TextLabel_6.Parent = ExploitsFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0, 0, 0.370370358, 0)
+TextLabel_6.Size = UDim2.new(0, 156, 0, 35)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Player Fling"
+TextLabel_6.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+MapFrame.Name = "MapFrame"
+MapFrame.Parent = a
+MapFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MapFrame.BackgroundTransparency = 1.000
+MapFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MapFrame.BorderSizePixel = 0
+MapFrame.Position = UDim2.new(0, 0, 0.183098659, 0)
+MapFrame.Size = UDim2.new(0, 558, 0, 405)
+MapFrame.Visible = false
+
+TextLabel_7.Parent = MapFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0, 0, 0.175308645, 0)
+TextLabel_7.Size = UDim2.new(0, 156, 0, 35)
+TextLabel_7.Font = Enum.Font.SourceSansBold
+TextLabel_7.Text = "Delete Lane Gates"
+TextLabel_7.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+DeleteLaneGates.Name = "DeleteLaneGates"
+DeleteLaneGates.Parent = MapFrame
+DeleteLaneGates.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DeleteLaneGates.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DeleteLaneGates.BorderSizePixel = 0
+DeleteLaneGates.Position = UDim2.new(0.300000012, 0, 0.189108014, 0)
+DeleteLaneGates.Size = UDim2.new(0, 66, 0, 29)
+
+Frame_5.Parent = DeleteLaneGates
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Size = UDim2.new(0, 26, 0, 29)
+Frame_5.ZIndex = 2
+
+UICorner_14.CornerRadius = UDim.new(1, 0)
+UICorner_14.Parent = Frame_5
+
+TextButton_6.Parent = DeleteLaneGates
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0, 0, 4.20932111e-06, 0)
+TextButton_6.Size = UDim2.new(0, 66, 0, 29)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = ""
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+UICorner_15.CornerRadius = UDim.new(1, 0)
+UICorner_15.Parent = TextButton_6
+
+UICorner_16.CornerRadius = UDim.new(1, 0)
+UICorner_16.Parent = DeleteLaneGates
+
+TextLabel_8.Parent = MapFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0, 0, 0.0641975328, 0)
+TextLabel_8.Size = UDim2.new(0, 156, 0, 35)
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "Delete All Barriers"
+TextLabel_8.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+DeleteAllBarriers.Name = "DeleteAllBarriers"
+DeleteAllBarriers.Parent = MapFrame
+DeleteAllBarriers.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DeleteAllBarriers.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DeleteAllBarriers.BorderSizePixel = 0
+DeleteAllBarriers.Position = UDim2.new(0.300000012, 0, 0.0779969022, 0)
+DeleteAllBarriers.Size = UDim2.new(0, 66, 0, 29)
+
+Frame_6.Parent = DeleteAllBarriers
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Size = UDim2.new(0, 26, 0, 29)
+Frame_6.ZIndex = 2
+
+UICorner_17.CornerRadius = UDim.new(1, 0)
+UICorner_17.Parent = Frame_6
+
+TextButton_7.Parent = DeleteAllBarriers
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0, 0, 4.20932111e-06, 0)
+TextButton_7.Size = UDim2.new(0, 66, 0, 29)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = ""
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+
+UICorner_18.CornerRadius = UDim.new(1, 0)
+UICorner_18.Parent = TextButton_7
+
+UICorner_19.CornerRadius = UDim.new(1, 0)
+UICorner_19.Parent = DeleteAllBarriers
+
+MiscFrame.Name = "MiscFrame"
+MiscFrame.Parent = a
+MiscFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MiscFrame.BackgroundTransparency = 1.000
+MiscFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MiscFrame.BorderSizePixel = 0
+MiscFrame.Position = UDim2.new(0, 0, 0.183098659, 0)
+MiscFrame.Size = UDim2.new(0, 558, 0, 405)
+MiscFrame.Visible = false
+
+TabSwitcher.Name = "TabSwitcher"
+TabSwitcher.Parent = a
+TabSwitcher.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+TabSwitcher.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TabSwitcher.BorderSizePixel = 0
+TabSwitcher.Position = UDim2.new(0.00716845877, 0, 0.0861164927, 0)
+TabSwitcher.Size = UDim2.new(0, 550, 0, 47)
+
+ExploitsTabButton.Name = "ExploitsTabButton"
+ExploitsTabButton.Parent = TabSwitcher
+ExploitsTabButton.BackgroundColor3 = Color3.fromRGB(189, 207, 255)
+ExploitsTabButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExploitsTabButton.BorderSizePixel = 0
+ExploitsTabButton.Position = UDim2.new(0.0163636357, 0, 0.104276292, 0)
+ExploitsTabButton.Size = UDim2.new(0, 100, 0, 37)
+ExploitsTabButton.Font = Enum.Font.SourceSansBold
+ExploitsTabButton.Text = "Exploits"
+ExploitsTabButton.TextColor3 = Color3.fromRGB(48, 48, 48)
+ExploitsTabButton.TextSize = 29.000
+ExploitsTabButton.TextWrapped = true
+
+UICorner_20.Parent = ExploitsTabButton
+
+TextLabel_9.Parent = ExploitsTabButton
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.189999998, 0, -0.108108111, 0)
+TextLabel_9.Size = UDim2.new(0, 62, 0, 50)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "_"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+UICorner_21.Parent = TabSwitcher
+
+MapTabButton.Name = "MapTabButton"
+MapTabButton.Parent = TabSwitcher
+MapTabButton.BackgroundColor3 = Color3.fromRGB(189, 207, 255)
+MapTabButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MapTabButton.BorderSizePixel = 0
+MapTabButton.Position = UDim2.new(0.212727278, 0, 0.104276292, 0)
+MapTabButton.Size = UDim2.new(0, 100, 0, 37)
+MapTabButton.Font = Enum.Font.SourceSansBold
+MapTabButton.Text = "Map"
+MapTabButton.TextColor3 = Color3.fromRGB(48, 48, 48)
+MapTabButton.TextSize = 29.000
+MapTabButton.TextWrapped = true
+
+UICorner_22.Parent = MapTabButton
+
+TextLabel_10.Parent = MapTabButton
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.189999998, 0, -0.108108111, 0)
+TextLabel_10.Size = UDim2.new(0, 62, 0, 50)
+TextLabel_10.Visible = false
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "_"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+MiscTabButton.Name = "MiscTabButton"
+MiscTabButton.Parent = TabSwitcher
+MiscTabButton.BackgroundColor3 = Color3.fromRGB(189, 207, 255)
+MiscTabButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MiscTabButton.BorderSizePixel = 0
+MiscTabButton.Position = UDim2.new(0.598181903, 0, 0.104276292, 0)
+MiscTabButton.Size = UDim2.new(0, 100, 0, 37)
+MiscTabButton.Font = Enum.Font.SourceSansBold
+MiscTabButton.Text = "Misc"
+MiscTabButton.TextColor3 = Color3.fromRGB(48, 48, 48)
+MiscTabButton.TextSize = 29.000
+MiscTabButton.TextWrapped = true
+
+UICorner_23.Parent = MiscTabButton
+
+TextLabel_11.Parent = MiscTabButton
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.189999998, 0, -0.108108111, 0)
+TextLabel_11.Size = UDim2.new(0, 62, 0, 50)
+TextLabel_11.Visible = false
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "_"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+CreditsTabButton.Name = "CreditsTabButton"
+CreditsTabButton.Parent = TabSwitcher
+CreditsTabButton.BackgroundColor3 = Color3.fromRGB(189, 207, 255)
+CreditsTabButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreditsTabButton.BorderSizePixel = 0
+CreditsTabButton.Position = UDim2.new(0.799999893, 0, 0.104276292, 0)
+CreditsTabButton.Size = UDim2.new(0, 100, 0, 37)
+CreditsTabButton.Font = Enum.Font.SourceSansBold
+CreditsTabButton.Text = "Credits"
+CreditsTabButton.TextColor3 = Color3.fromRGB(48, 48, 48)
+CreditsTabButton.TextSize = 29.000
+CreditsTabButton.TextWrapped = true
+
+UICorner_24.Parent = CreditsTabButton
+
+TextLabel_12.Parent = CreditsTabButton
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.189999998, 0, -0.108108111, 0)
+TextLabel_12.Size = UDim2.new(0, 62, 0, 50)
+TextLabel_12.Visible = false
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "_"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+VehicleTabButton.Name = "VehicleTabButton"
+VehicleTabButton.Parent = TabSwitcher
+VehicleTabButton.BackgroundColor3 = Color3.fromRGB(189, 207, 255)
+VehicleTabButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VehicleTabButton.BorderSizePixel = 0
+VehicleTabButton.Position = UDim2.new(0.405454546, 0, 0.104276292, 0)
+VehicleTabButton.Size = UDim2.new(0, 100, 0, 37)
+VehicleTabButton.Font = Enum.Font.SourceSansBold
+VehicleTabButton.Text = "Vehicle"
+VehicleTabButton.TextColor3 = Color3.fromRGB(48, 48, 48)
+VehicleTabButton.TextSize = 29.000
+VehicleTabButton.TextWrapped = true
+
+UICorner_25.Parent = VehicleTabButton
+
+TextLabel_13.Parent = VehicleTabButton
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.189999998, 0, -0.108108111, 0)
+TextLabel_13.Size = UDim2.new(0, 62, 0, 50)
+TextLabel_13.Visible = false
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "_"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+TextLabel_14.Parent = a
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.202586293, 0, 0.945424616, 0)
+TextLabel_14.Size = UDim2.new(0, 331, 0, 20)
+TextLabel_14.Font = Enum.Font.SourceSansBold
+TextLabel_14.Text = "version-1.2-obsfucated"
+TextLabel_14.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 42.000
+TextLabel_14.TextWrapped = true
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = a
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsFrame.BackgroundTransparency = 1.000
+CreditsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreditsFrame.BorderSizePixel = 0
+CreditsFrame.Position = UDim2.new(0, 0, 0.183098659, 0)
+CreditsFrame.Size = UDim2.new(0, 558, 0, 405)
+CreditsFrame.Visible = false
+
+TextLabel_15.Parent = CreditsFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.202586189, 0, 0.0311987326, 0)
+TextLabel_15.Size = UDim2.new(0, 331, 0, 20)
+TextLabel_15.Font = Enum.Font.SourceSansBold
+TextLabel_15.Text = "MyeWare Credits"
+TextLabel_15.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_15.TextSize = 42.000
+TextLabel_15.TextWrapped = true
+
+TextLabel_16.Parent = CreditsFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(0.089682959, 0, 0.174408555, 0)
+TextLabel_16.Size = UDim2.new(0, 432, 0, 20)
+TextLabel_16.Font = Enum.Font.SourceSansBold
+TextLabel_16.Text = "UI: @rosploiter, @mye_real and @ser.ver_\\n "
+TextLabel_16.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_16.TextSize = 22.000
+TextLabel_16.TextWrapped = true
+
+TextLabel_17.Parent = CreditsFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(0.089682959, 0, 0.253420919, 0)
+TextLabel_17.Size = UDim2.new(0, 432, 0, 20)
+TextLabel_17.Font = Enum.Font.SourceSansBold
+TextLabel_17.Text = "Exploits: RoSploiter, EdgeIY (Inf Yeild)"
+TextLabel_17.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_17.TextSize = 22.000
+TextLabel_17.TextWrapped = true
+
+TextLabel_18.Parent = CreditsFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(0.201212779, 0, 0.334902376, 0)
+TextLabel_18.Size = UDim2.new(0, 313, 0, 42)
+TextLabel_18.Font = Enum.Font.SourceSansBold
+TextLabel_18.Text = "Join our discord!"
+TextLabel_18.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_18.TextSize = 18.000
+TextLabel_18.TextWrapped = true
+
+TextBox.Parent = CreditsFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.30107528, 0, 0.417283952, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.PlaceholderText = "https://discord.gg/JJBYqWRk3g"
+TextBox.Text = "https://discord.gg/JJBYqWRk3g"
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextLabel_19.Parent = CreditsFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.201212779, 0, 0.470704854, 0)
+TextLabel_19.Size = UDim2.new(0, 313, 0, 42)
+TextLabel_19.Font = Enum.Font.SourceSansBold
+TextLabel_19.Text = "(MyeWare discord)"
+TextLabel_19.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_19.TextSize = 18.000
+TextLabel_19.TextWrapped = true
+
+TextBox_2.Parent = CreditsFrame
+TextBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.BackgroundTransparency = 1.000
+TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(0.30107528, 0, 0.545679033, 0)
+TextBox_2.Size = UDim2.new(0, 200, 0, 50)
+TextBox_2.ClearTextOnFocus = false
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TextBox_2.PlaceholderText = "https://discord.gg/robloxtrollers"
+TextBox_2.Text = "https://discord.gg/robloxtrollers"
+TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+
+TextLabel_20.Parent = CreditsFrame
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0.201212779, 0, 0.599099934, 0)
+TextLabel_20.Size = UDim2.new(0, 313, 0, 42)
+TextLabel_20.Font = Enum.Font.SourceSansBold
+TextLabel_20.Text = "(Roblox trolling union discord)"
+TextLabel_20.TextColor3 = Color3.fromRGB(113, 113, 113)
+TextLabel_20.TextSize = 18.000
+TextLabel_20.TextWrapped = true
+
+VehicleFrame.Name = "VehicleFrame"
+VehicleFrame.Parent = a
+VehicleFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VehicleFrame.BackgroundTransparency = 1.000
+VehicleFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VehicleFrame.BorderSizePixel = 0
+VehicleFrame.Position = UDim2.new(0, 0, 0.183098659, 0)
+VehicleFrame.Size = UDim2.new(0, 558, 0, 405)
+VehicleFrame.Visible = false
+
+UICorner_26.Parent = a
+
+-- Scripts:
+
+local function PXSVKL_fake_script() -- MainGui.SetTabExploitsOnLaunch 
+ local script = Instance.new('LocalScript', MainGui)
+
+ _G.MyeWareCurrentTab = "Exploits"
+end
+coroutine.wrap(PXSVKL_fake_script)()
+local function XUNE_fake_script() -- TextButton.LocalScript 
+ local script = Instance.new('LocalScript', TextButton)
+
+ local par = script.Parent
+ par.MouseButton1Click:connect(function()
+  script.Parent.Parent:Destroy()
+ end)
+end
+coroutine.wrap(XUNE_fake_script)()
+local function CIKYIYS_fake_script() -- MRCount.LocalScript 
+ local script = Instance.new('LocalScript', MRCount)
+
+ local HTTPS = game:GetService("HttpService")
+ local HighRanks = HTTPS:JSONDecode(game:HttpGet("https://washiez.doqe.dev/hrs", true))
+ local MiddleRanks = HTTPS:JSONDecode(game:HttpGet("https://washiez.doqe.dev/mrs", true))
+ function HRScan()
+  local HRS = 0
+  for i, v in game.Players:GetPlayers() do
+   if table.find(HighRanks, v.UserId) then HRS = HRS + 1 end
+  end
+  return HRS
+ end
+ 
+ function MRScan()
+  local MRS = 0
+  for i, v in game.Players:GetPlayers() do
+   if table.find(MiddleRanks, v.UserId) then MRS = MRS + 1 end
+  end
+  return MRS
+ end
+ 
+ while wait(0.75) do
+  script.Parent.Text = "MR Count: "..MRScan()
+  script.Parent.Parent.HRCount.Text = "HR Count: "..HRScan()
+ end
+end
+coroutine.wrap(CIKYIYS_fake_script)()
+local function YGRDMA_fake_script() -- TextButton_2.RunScript 
+ local script = Instance.new('LocalScript', TextButton_2)
+
+ while wait() do
+  while _G.CarFlingOn == true do
+   if _G.CarFlingOn == true then
+    local plr = nil
+    workspace.SpawnedCars.ChildAdded:Connect(function(v)
+     if v:IsA("Model") and v.Name:match(game.Players.LocalPlayer.Name) then
+      plrcar = v
+     end
+    end)
+    for _, child in pairs(workspace.SpawnedCars:GetChildren()) do
+     if child.Name:match(game.Players.LocalPlayer.Name) then
+      plrcar = child
+     end
+    end
+ 
+    local flingt = true
+ 
+    local function fling()
+     local hrp, vel, movel = nil, nil, 0.1
+     while flingt do
+      game:GetService("RunService").Heartbeat:Wait()
+ 
+      while flingt and not plrcar do
+       game:GetService("RunService").Heartbeat:Wait()
+      end
+ 
+      if flingt and plrcar and _G.CarFlingOn == true then
+       hrp = plrcar.PrimaryPart
+ 
+       if hrp then
+        local success, err = pcall(function()
+         vel = hrp.AssemblyLinearVelocity
+         hrp.AssemblyLinearVelocity = vel * 10000 + Vector3.new(0,10000,0)
+         game:GetService("RunService").RenderStepped:Wait()
+ 
+         if hrp and hrp.Parent then
+          hrp.AssemblyLinearVelocity = vel
+         end
+ 
+         game:GetService("RunService").Stepped:Wait()
+ 
+         if hrp and hrp.Parent then
+          hrp.AssemblyLinearVelocity = vel + Vector3.new(0,movel,0)
+          movel = movel * -1
+         end
+        end)
+ 
+        if not success then
+         warn("Error: " .. tostring(err))
+         flingt = false
+        end
+       end
+      end
+     end
+    end
+    fling()
+ 
+   else
+ 
+    local plrcar = nil
+    workspace.SpawnedCars.ChildAdded:Connect(function(v)
+     if v:IsA("Model") and v.Name:match(game.Players.LocalPlayer.Name) then
+      plrcar = v
+     end
+    end)
+    for _, child in pairs(workspace.SpawnedCars:GetChildren()) do
+     if child.Name:match(game.Players.LocalPlayer.Name) then
+      plrcar = child
+     end
+    end
+ 
+    local flingt = false
+ 
+    local function fling()
+     local hrp, vel, movel = nil, nil, 0.1
+     while flingt do
+      game:GetService("RunService").Heartbeat:Wait()
+ 
+      while flingt and not plrcar do
+       game:GetService("RunService").Heartbeat:Wait()
+      end
+ 
+      if flingt and plrcar then
+       hrp = plrcar.PrimaryPart
+ 
+       if hrp then
+        local success, err = pcall(function()
+         vel = hrp.AssemblyLinearVelocity
+         hrp.AssemblyLinearVelocity = vel * 10000 +
+          Vector3.new(0,
+           10000,
+           0)
+         game:GetService("RunService").RenderStepped:Wait()
+ 
+         if hrp and hrp.Parent then
+          hrp.AssemblyLinearVelocity = vel
+         end
+ 
+         game:GetService("RunService").Stepped:Wait()
+ 
+         if hrp and hrp.Parent then
+          hrp.AssemblyLinearVelocity = vel +
+           Vector3.new(0,
+            movel,
+            0)
+          movel = movel * -1
+         end
+        end)
+ 
+        if not success then
+         warn("Error: " .. tostring(err))
+         flingt = false
+        end
+       end
+      end
+     end
+ 
+     fling()
+    end
+ 
+   end
+  end
+ end
+end
+coroutine.wrap(YGRDMA_fake_script)()
+local function TNPZKQ_fake_script() -- TextButton_2.LocalScript 
+ local script = Instance.new('LocalScript', TextButton_2)
+
+ local TweenService = game:GetService('TweenService')
+ 
+ local ToggleFrame = script.Parent.Parent
+ local Button = script.Parent.Parent.Frame
+ 
+ _G.CarFlingOn = false
+ 
+ local function Fuse(val) -- am i high?? wtf 
+  if val == false then
+ 
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,0,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0, 0, 0.021, 0)}):Play()
+   
+  else
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,1,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0.582, 0, 0.021, 0)}):Play()
+   
+  end
+ end
+ 
+ script.Parent.MouseButton1Click:Connect(function()
+  if _G.CarFlingOn then
+   _G.CarFlingOn = false
+   Fuse(false)
+  else
+   _G.CarFlingOn = true
+   Fuse(true)
+  end
+ end)
+ 
+ -- it works now, I was jst a lil stupid
+end
+coroutine.wrap(TNPZKQ_fake_script)()
+local function XRCY_fake_script() -- TextButton_3.LocalScript 
+ local script = Instance.new('LocalScript', TextButton_3)
+
+ local TweenService = game:GetService('TweenService')
+ 
+ local ToggleFrame = script.Parent.Parent
+ local Button = script.Parent.Parent.Frame
+ 
+ _G.CarNoclipOn = false
+ 
+ local function Fuse(val) -- am i high?? wtf 
+  if val == false then
+ 
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,0,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0, 0, 0.021, 0)}):Play()
+   
+  else
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,1,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0.582, 0, 0.021, 0)}):Play()
+   
+  end
+ end
+ 
+ script.Parent.MouseButton1Click:Connect(function()
+  if _G.CarNoclipOn then
+   _G.CarNoclipOn = false
+   Fuse(false)
+  else
+   _G.CarNoclipOn = true
+   Fuse(true)
+  end
+ end)
+ 
+ -- it works now, I was jst a lil stupid
+end
+coroutine.wrap(XRCY_fake_script)()
+local function WEXVN_fake_script() -- TextButton_3.RunScript 
+ local script = Instance.new('LocalScript', TextButton_3)
+
+ while wait(1) do 
+  if _G.CarNoclipOn == true then
+   local plrcar = nil
+   t2able = {}
+   workspace.SpawnedCars.ChildAdded:Connect(function(v)
+    if v:IsA("Model") and v.Name:match(game.Players.LocalPlayer.Name) then
+     plrcar = v
+    end
+   end)
+   for _, child in pairs(workspace.SpawnedCars:GetChildren()) do
+    if child.Name:match(game.Players.LocalPlayer.Name) then
+     plrcar = child
+    end
+   end
+   _G.UrCarPath = plrcar
+   while _G.CarNoclipOn == true do
+    if plrcar then
+     for i, v in game.Workspace.SpawnedCars:GetChildren() do
+      if _G.UrCarPath ~= nil then
+       if v.Name ~= _G.UrCarPath.Name then
+        for i, v2 in v:GetDescendants() do
+         if v2:IsA("BasePart") then
+          v2.CanCollide = false
+         end
+        end
+       end
+      end
+     end
+     for i, v in game.Workspace:GetChildren() do
+      if v:FindFirstChild("Humanoid") then
+       for i, v2 in v:GetDescendants() do
+        if v2:IsA("BasePart") then
+         v2.CanCollide = false
+        end
+       end
+ 
+      end
+     end
+    end
+    wait(.51)
+   end
+  else
+   local plrcar = nil
+   t2able = {}
+   workspace.SpawnedCars.ChildAdded:Connect(function(v)
+    if v:IsA("Model") and v.Name:match(game.Players.LocalPlayer.Name) then
+     plrcar = v
+    end
+   end)
+   for _, child in pairs(workspace.SpawnedCars:GetChildren()) do
+    if child.Name:match(game.Players.LocalPlayer.Name) then
+     plrcar = child
+    end
+   end
+   _G.UrCarPath = plrcar
+   while _G.CarNoclipOn == false do
+    if plrcar then
+     for i, v in game.Workspace.SpawnedCars:GetChildren() do
+      if _G.UrCarPath ~= nil then
+       if v.Name ~= _G.UrCarPath.Name then
+        for i, v2 in v:GetDescendants() do
+         if v2:IsA("BasePart") then
+          v2.CanCollide = true
+         end
+        end
+       end
+      end
+     end
+     for i, v in game.Workspace:GetChildren() do
+      if v:FindFirstChild("Humanoid") then
+       for i, v2 in v:GetDescendants() do
+        if v2:IsA("BasePart") then
+         v2.CanCollide = true
+        end
+       end
+ 
+      end
+     end
+    end
+    wait(.51)
+   end
+  end
+ 
+ end
+end
+coroutine.wrap(WEXVN_fake_script)()
+local function EAPWF_fake_script() -- TextButton_4.LocalScript 
+ local script = Instance.new('LocalScript', TextButton_4)
+
+ local TweenService = game:GetService('TweenService')
+ 
+ local ToggleFrame = script.Parent.Parent
+ local Button = script.Parent.Parent.Frame
+ 
+ _G.DevRankOn = false
+ 
+ local function Fuse(val) -- am i high?? wtf 
+  if val == false then
+ 
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,0,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0, 0, 0.021, 0)}):Play()
+   
+  else
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,1,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0.582, 0, 0.021, 0)}):Play()
+   
+  end
+ end
+ 
+ script.Parent.MouseButton1Click:Connect(function()
+  if _G.DevRankOn then
+   _G.DevRankOn = false
+   Fuse(false)
+  else
+   _G.DevRankOn = true
+   Fuse(true)
+  end
+ end)
+ 
+ -- it works now, I was jst a lil stupid
+end
+coroutine.wrap(EAPWF_fake_script)()
+local function NTRZDI_fake_script() -- TextButton_4.LocalScript 
+ local script = Instance.new('LocalScript', TextButton_4)
+
+ while wait() do
+   if _G.DevRankOn == true then
+    local plr = game.Players.LocalPlayer
+    plr.GroupInfo.Rank.Value = 255
+    wait(0.2)
+ 
+   else
+    local plr = game.Players.LocalPlayer
+    plr.GroupInfo.Rank.Value = 1
+    wait(0.2)
+ 
+   end
+ end
+end
+coroutine.wrap(NTRZDI_fake_script)()
+local function COPR_fake_script() -- TextButton_5.LocalScript 
+ local script = Instance.new('LocalScript', TextButton_5)
+
+ local TweenService = game:GetService('TweenService')
+ 
+ local ToggleFrame = script.Parent.Parent
+ local Button = script.Parent.Parent.Frame
+ 
+ _G.PlayerFlingOn = false
+ 
+ local function Fuse(val) -- am i high?? wtf 
+  if val == false then
+ 
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,0,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0, 0, 0.021, 0)}):Play()
+   
+  else
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,1,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0.582, 0, 0.021, 0)}):Play()
+   
+  end
+ end
+ 
+ script.Parent.MouseButton1Click:Connect(function()
+  if _G.PlayerFlingOn then
+   _G.PlayerFlingOn = false
+   Fuse(false)
+  else
+   _G.PlayerFlingOn = true
+   Fuse(true)
+  end
+ end)
+ 
+ -- it works now, I was jst a lil stupid
+end
+coroutine.wrap(COPR_fake_script)()
+local function IIFW_fake_script() -- TextButton_5.RunScript 
+ local script = Instance.new('LocalScript', TextButton_5)
+
+ while wait() do
+  while _G.PlayerFlingOn == true do
+   if _G.PlayerFlingOn == true then
+    local plrcar = nil
+ local plrcar = game.Players.LocalPlayer.Character
+    local flingt = true
+ 
+    local function fling()
+     local hrp, vel, movel = nil, nil, 0.1
+     while flingt do
+      game:GetService("RunService").Heartbeat:Wait()
+ 
+      while flingt and not plrcar do
+       game:GetService("RunService").Heartbeat:Wait()
+      end
+ 
+      if flingt and plrcar and _G.PlayerFlingOn == true then
+       hrp = plrcar.PrimaryPart
+ 
+       if hrp then
+        local success, err = pcall(function()
+         vel = hrp.AssemblyLinearVelocity
+         hrp.AssemblyLinearVelocity = vel * 10000 + Vector3.new(0,10000,0)
+         game:GetService("RunService").RenderStepped:Wait()
+ 
+         if hrp and hrp.Parent then
+          hrp.AssemblyLinearVelocity = vel
+         end
+ 
+         game:GetService("RunService").Stepped:Wait()
+ 
+         if hrp and hrp.Parent then
+          hrp.AssemblyLinearVelocity = vel + Vector3.new(0,movel,0)
+          movel = movel * -1
+         end
+        end)
+ 
+        if not success then
+         warn("Error: " .. tostring(err))
+         flingt = false
+        end
+       end
+      end
+     end
+    end
+    fling()
+ 
+   else
+ 
+    local plrcar = nil
+    local plrcar = game.Players.LocalPlayer.Character
+    local flingt = false
+ 
+    local function fling()
+     local hrp, vel, movel = nil, nil, 0.1
+     while flingt do
+      game:GetService("RunService").Heartbeat:Wait()
+ 
+      while flingt and not plrcar do
+       game:GetService("RunService").Heartbeat:Wait()
+      end
+ 
+      if flingt and plrcar and _G.PlayerFlingOn == true then
+       hrp = plrcar.PrimaryPart
+ 
+       if hrp then
+        local success, err = pcall(function()
+         vel = hrp.AssemblyLinearVelocity
+         hrp.AssemblyLinearVelocity = vel * 10000 +
+          Vector3.new(0,
+           10000,
+           0)
+         game:GetService("RunService").RenderStepped:Wait()
+ 
+         if hrp and hrp.Parent then
+          hrp.AssemblyLinearVelocity = vel
+         end
+ 
+         game:GetService("RunService").Stepped:Wait()
+ 
+         if hrp and hrp.Parent then
+          hrp.AssemblyLinearVelocity = vel +
+           Vector3.new(0,
+            movel,
+            0)
+          movel = movel * -1
+         end
+        end)
+ 
+        if not success then
+         warn("Error: " .. tostring(err))
+         flingt = false
+        end
+       end
+      end
+     end
+ 
+     fling()
+    end
+ 
+   end
+  end
+ end
+end
+coroutine.wrap(IIFW_fake_script)()
+local function NPYGIWL_fake_script() -- TextButton_6.LocalScript 
+ local script = Instance.new('LocalScript', TextButton_6)
+
+ while wait(1) do
+   if _G.DeleteLaneGates then
+    for i,v in game.Workspace:GetDescendants() do 
+    if v.Name == "Gate" then
+     v.Parent = game
+    end
+    i = i + 1
+    if i%2400 == 0 then
+     task.wait()
+    end 
+    end
+   else
+   for i,v in game:GetChildren() do
+    if v.Name == "Gate" then
+     v.Parent = game.Workspace
+    end
+   end
+   end
+ end
+end
+coroutine.wrap(NPYGIWL_fake_script)()
+local function RMJV_fake_script() -- TextButton_6.LocalScript 
+ local script = Instance.new('LocalScript', TextButton_6)
+
+ local TweenService = game:GetService('TweenService')
+ 
+ local ToggleFrame = script.Parent.Parent
+ local Button = script.Parent.Parent.Frame
+ 
+ _G.DeleteLaneGates = false
+ 
+ local function Fuse(val) -- am i high?? wtf 
+  if val == false then
+ 
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,0,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0, 0, 0.021, 0)}):Play()
+   
+  else
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,1,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0.582, 0, 0.021, 0)}):Play()
+   
+  end
+ end
+ 
+ script.Parent.MouseButton1Click:Connect(function()
+  if _G.DeleteLaneGates then
+   _G.DeleteLaneGates = false
+   Fuse(false)
+  else
+   _G.DeleteLaneGates = true
+   Fuse(true)
+  end
+ end)
+ 
+ -- it works now, I was jst a lil stupid
+end
+coroutine.wrap(RMJV_fake_script)()
+local function OSWXOT_fake_script() -- TextButton_7.LocalScript 
+ local script = Instance.new('LocalScript', TextButton_7)
+
+ local TweenService = game:GetService('TweenService')
+ 
+ local ToggleFrame = script.Parent.Parent
+ local Button = script.Parent.Parent.Frame
+ 
+ _G.DeleteAllBarriers = false
+ 
+ local function Fuse(val) -- am i high?? wtf 
+  if val == false then
+ 
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,0,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0, 0, 0.021, 0)}):Play()
+   
+  else
+   TweenService:Create(ToggleFrame, TweenInfo.new(0.75), {BackgroundColor3 = Color3.new(0,1,0)}):Play()
+   TweenService:Create(Button, TweenInfo.new(0.75), {Position = UDim2.new(0.582, 0, 0.021, 0)}):Play()
+   
+  end
+ end
+ 
+ script.Parent.MouseButton1Click:Connect(function()
+  if _G.DeleteAllBarriers then
+   _G.DeleteAllBarriers = false
+   Fuse(false)
+  else
+   _G.DeleteAllBarriers = true
+   Fuse(true)
+  end
+ end)
+ 
+ -- it works now, I was jst a lil stupid
+end
+coroutine.wrap(OSWXOT_fake_script)()
+local function ETDPKCV_fake_script() -- TextButton_7.LocalScript 
+ local script = Instance.new('LocalScript', TextButton_7)
+
+ function moveParts(parent, destination)
+  for i, obj in pairs(parent:GetDescendants()) do
+   if obj.Name:sub(1, 10) == "BannerSign" or
+    obj.Name:sub(1, 5) == "Plant" or
+    obj.Name == "CarBarrier" or
+    obj.Name == "ConstructionBarrier" or
+    obj.Name == "PostBarrier" then
+    obj.Parent = destination
+   end
+   if i%2400 == 0 then
+    task.wait()
+   end
+  end
+ end
+ while wait(1) do
+  if _G.DeleteAllBarriers then
+   moveParts(workspace, game)
+  else
+   moveParts(game, workspace)
+  end
+ end
+end
+coroutine.wrap(ETDPKCV_fake_script)()
+local function RLIBC_fake_script() -- ExploitsTabButton.LocalScript 
+ local script = Instance.new('LocalScript', ExploitsTabButton)
+
+ script.Parent.MouseButton1Click:Connect(function()
+  _G.MyeWareCurrentTab = "Exploits"
+ end)
+end
+coroutine.wrap(RLIBC_fake_script)()
+local function XXFANW_fake_script() -- MapTabButton.LocalScript 
+ local script = Instance.new('LocalScript', MapTabButton)
+
+ script.Parent.MouseButton1Click:Connect(function()
+  _G.MyeWareCurrentTab = "Map"
+ end)
+end
+coroutine.wrap(XXFANW_fake_script)()
+local function EBVI_fake_script() -- MiscTabButton.LocalScript 
+ local script = Instance.new('LocalScript', MiscTabButton)
+
+ script.Parent.MouseButton1Click:Connect(function()
+  _G.MyeWareCurrentTab = "Misc"
+ end)
+end
+coroutine.wrap(EBVI_fake_script)()
+local function YMDEYWG_fake_script() -- CreditsTabButton.LocalScript 
+ local script = Instance.new('LocalScript', CreditsTabButton)
+
+ script.Parent.MouseButton1Click:Connect(function()
+  _G.MyeWareCurrentTab = "Credits"
+ end)
+end
+coroutine.wrap(YMDEYWG_fake_script)()
+local function YWRSDL_fake_script() -- TabSwitcher.TabHandler 
+ local script = Instance.new('LocalScript', TabSwitcher)
+
+ while wait() do
+  if _G.MyeWareCurrentTab == "Exploits" then
+   for i, v in pairs(script.Parent.Parent:GetChildren()) do
+    if v.Name ~= "ExploitsFrame" and v:IsA("Frame") and v.Name ~= "bannerad" and v.Name ~= "TabSwitcher" and v.Name ~= "UICorner" then
+     v.Visible = false
+    else
+     if v:IsA("Frame") or v:IsA("TextLabel") then
+      v.Visible = true
+     end
+    end
+   end
+   script.Parent.ExploitsTabButton.TextLabel.Visible = true
+   script.Parent.VehicleTabButton.TextLabel.Visible = false
+   script.Parent.MiscTabButton.TextLabel.Visible = false
+   script.Parent.MapTabButton.TextLabel.Visible = false
+   script.Parent.CreditsTabButton.TextLabel.Visible = false
+  elseif _G.MyeWareCurrentTab == "Vehicle" then
+   for i, v in pairs(script.Parent.Parent:GetChildren()) do
+    if v.Name ~= "VehicleFrame" and v:IsA("Frame") and v.Name ~= "bannerad" and v.Name ~= "TabSwitcher" and v.Name ~= "UICorner" then
+     v.Visible = false
+    else
+     if v:IsA("Frame") or v:IsA("TextLabel") then
+      v.Visible = true
+     end
+    end
+   end
+   script.Parent.ExploitsTabButton.TextLabel.Visible = false
+   script.Parent.VehicleTabButton.TextLabel.Visible = true
+   script.Parent.MiscTabButton.TextLabel.Visible = false
+   script.Parent.MapTabButton.TextLabel.Visible = false
+   script.Parent.CreditsTabButton.TextLabel.Visible = false
+  elseif _G.MyeWareCurrentTab == "Misc" then
+   for i, v in pairs(script.Parent.Parent:GetChildren()) do
+    if v.Name ~= "MiscFrame" and v:IsA("Frame") and v.Name ~= "bannerad" and v.Name ~= "TabSwitcher" and v.Name ~= "UICorner" then
+     v.Visible = false
+    else
+     if v:IsA("Frame") or v:IsA("TextLabel") then
+      v.Visible = true
+     end
+    end
+   end
+   script.Parent.ExploitsTabButton.TextLabel.Visible = false
+   script.Parent.VehicleTabButton.TextLabel.Visible = false
+   script.Parent.MiscTabButton.TextLabel.Visible = true
+   script.Parent.MapTabButton.TextLabel.Visible = false
+   script.Parent.CreditsTabButton.TextLabel.Visible = false
+  elseif _G.MyeWareCurrentTab == "Map" then
+   for i, v in pairs(script.Parent.Parent:GetChildren()) do
+    if v.Name ~= "MapFrame" and v:IsA("Frame") and v.Name ~= "bannerad" and v.Name ~= "TabSwitcher" and v.Name ~= "UICorner" then
+     v.Visible = false
+    else
+     if v:IsA("Frame") or v:IsA("TextLabel") then
+      v.Visible = true
+     end
+    end
+   end
+   script.Parent.ExploitsTabButton.TextLabel.Visible = false
+   script.Parent.VehicleTabButton.TextLabel.Visible = false
+   script.Parent.MiscTabButton.TextLabel.Visible = false
+   script.Parent.MapTabButton.TextLabel.Visible = true
+   script.Parent.CreditsTabButton.TextLabel.Visible = false
+  elseif _G.MyeWareCurrentTab == "Credits" then
+   for i, v in pairs(script.Parent.Parent:GetChildren()) do
+    if v.Name ~= "CreditsFrame" and v:IsA("Frame") and v.Name ~= "bannerad" and v.Name ~= "TabSwitcher" and v.Name ~= "UICorner" then
+     v.Visible = false
+    else
+     if v:IsA("Frame") or v:IsA("TextLabel") then
+      v.Visible = true
+     end
+    end
+   end
+   script.Parent.ExploitsTabButton.TextLabel.Visible = false
+   script.Parent.VehicleTabButton.TextLabel.Visible = false
+   script.Parent.MiscTabButton.TextLabel.Visible = false
+   script.Parent.MapTabButton.TextLabel.Visible = false
+   script.Parent.CreditsTabButton.TextLabel.Visible = true
+  end
+ end
+end
+coroutine.wrap(YWRSDL_fake_script)()
+local function DBYICY_fake_script() -- VehicleTabButton.LocalScript 
+ local script = Instance.new('LocalScript', VehicleTabButton)
+
+ script.Parent.MouseButton1Click:Connect(function()
+  _G.MyeWareCurrentTab = "Vehicle"
+ end)
+end
+coroutine.wrap(DBYICY_fake_script)()
+local function FLJYZZK_fake_script() -- MainGui.Dragify.lua 
+ local script = Instance.new('LocalScript', MainGui)
+
+ local UIS = game:GetService("UserInputService")
+ function dragify(Frame)
+  dragToggle = nil
+  local dragSpeed = 0.33
+  dragInput = nil
+  dragStart = nil
+  local dragPos = nil
+  function updateInput(input)
+   local Delta = input.Position - dragStart
+   local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+   game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.15), {Position = Position}):Play()
+  end
+  Frame.InputBegan:Connect(function(input)
+   if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+    dragToggle = true
+    dragStart = input.Position
+    startPos = Frame.Position
+    input.Changed:Connect(function()
+     if input.UserInputState == Enum.UserInputState.End then
+      dragToggle = false
+     end
+    end)
+   end
+  end)
+  Frame.InputChanged:Connect(function(input)
+   if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+    dragInput = input
+   end
+  end)
+  game:GetService("UserInputService").InputChanged:Connect(function(input)
+   if input == dragInput and dragToggle then
+    updateInput(input)
+   end
+  end)
+ end
+ 
+ dragify(script.Parent.a)
+end
+coroutine.wrap(FLJYZZK_fake_script)()
