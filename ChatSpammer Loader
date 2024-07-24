@@ -1,0 +1,7 @@
+-- settings
+getgenv().ChatSpammerSettings = {
+Message = ". g g / rоblоxtrоllеrѕ",
+SayAmt = 15,
+SayCooldown = 0.1
+} -- choose your own settings but you better advertise something!, It serverhops after spamming the amount of times so put it in autoexecute :)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MyeTheScripterLol/MyeWare/main/fadwadawd"))()
