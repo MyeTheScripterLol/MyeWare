@@ -1,8 +1,8 @@
 -- Chat spammer made by mye, This is not where you are supposed to be! Run the loader.
-if not getgenv().ChatSpammerSettings then 
+if not getgenv().ChatSpammerSettings12 then 
 getgenv().ChatSpammerSettings = {
 Message = ". g g / rоblоxtrоllеrѕ",
-SayAmt = 5,
+SayAmt = 15,
 SayCooldown = 0.1
 }
 end
