@@ -8,8 +8,10 @@ SayCooldown = 0.1
 end
 settings = getgenv().ChatSpammerSettings
 ReplicatedStorage = game.ReplicatedStorage
+i = 0
 while i < settings.SayAmt and task.wait(settings.SayCooldown) do
 ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(settings.Message, "All")
+i = i + 1
 end
 local PlaceID = game.PlaceId
 local AllIDs = {}
